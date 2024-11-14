@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .toast{
+            width: 400px;
+            background-color: #d1d4d7;
+            border-radius: 15px;
+            padding: 15px;
+        }
+        .ret{
+            width:15px;
+            height:15px;
+            background-color: #fa0606;
+        }
+        .ret-toast{
+            display: flex;
+            align-items: center;
+        }
+        .toast-body{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body class="font-mono">
+    <!-- html/css pure -->
+    <!-- <div class="toast">
+        <div class="toast-body">
+            <div class="ret-toast">
+                <div class="ret"></div>
+                <h2>Toast</h2>
+            </div>
+            <span>11 min ago</span>
+        </div>
+        <hr>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio voluptates ex eveniet enim soluta amet quam rem veritatis numquam laudantium, facilis, aliquid et nam aperiam vero corrupti ut? Quia, ut.
+        </p>
+    </div> -->
+
+    <!-- Tailwind Css -->
+
+    <div class="w-[500px]  bg-green-500 p-3 rounded-lg">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center pb-2 space-x-2">
+                <div class="w-4 h-4 bg-red-600"></div>
+                <h2 class="text-xl font-bold">Toast</h2>
+            </div>
+            <span>11 min ago</span>
+        </div>
+        <hr class="pb-2">
+        <p class="text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis numquam praesentium magnam ab molestiae ratione rem obcaecati .</p>
+        
+    </div>
+</body>
+</html>
